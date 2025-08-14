@@ -14,7 +14,7 @@
   require 'PHPMailer/src/PHPMailer.php';
   require 'PHPMailer/src/SMTP.php';
 
-  $receiving_email_address = 'meneghinmattia1@gmail.com';
+  $receiving_email_address = 'biancamariamonti.psi@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
